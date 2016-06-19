@@ -22,13 +22,13 @@ public class MenuListas {
                 ListaDeExercicios02.main(null);
                 break;
             case "3":
-                ListadeExercicios03.main(null);
+                ListaDeExercicios03.main(null);
                 break;
             case "4":
                 //PERDIDO------------------------------------------------------------------------
                 break;
             case "5":
-                ListadeExercicios05.main(null);
+                ListaDeExercicios05.main(null);
                 break;
             case "6":
                 ListaDeExercicios06.main(null);
