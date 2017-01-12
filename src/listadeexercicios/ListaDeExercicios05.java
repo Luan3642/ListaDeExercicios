@@ -1,3 +1,5 @@
+package listadeexercicios;
+
 import java.util.Scanner;
 
 public class ListaDeExercicios05 {
