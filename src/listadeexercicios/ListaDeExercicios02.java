@@ -166,6 +166,17 @@ public class ListaDeExercicios02 {
 
     public static void Exercicio07(){
         
+        System.out.println("Digite um número");
+        int numero = scan.nextInt();
+        
+        
+        if (numero > 100){
+            System.out.println("Número Maior que 100");
+        } else if (numero <0){
+            System.out.println("Número negativo");
+        } else {
+            System.out.println("Número menor que 100");
+        }
     }
     
     public static void Exercicio08() {
