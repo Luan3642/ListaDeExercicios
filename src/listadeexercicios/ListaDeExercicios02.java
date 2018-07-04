@@ -214,6 +214,27 @@ public class ListaDeExercicios02 {
 
     public static void Exercicio10(){
         
+        System.out.println("Valor hora aula R$: ");
+        Double HT = scan.nextDouble();
+
+        System.out.println("Horas trabalhadas: ");
+        Double VH = scan.nextDouble();
+
+        System.out.println("Desconto INSS: ");
+        Double PD = scan.nextDouble();
+
+        System.out.println("Informe o salário bruto");
+        Double SB = scan.nextDouble();
+
+        Double calculaSalarioBruto = HT * VH;
+
+        Double calculaTotalDesconto = (PD / 100) * calculaSalarioBruto;
+
+        Double calculaSalarioLiquido = SB - calculaTotalDesconto;
+
+        
+        System.out.println("Total de desconto: " + calculaTotalDesconto);
+        System.out.println("Salário liquido: " + calculaSalarioLiquido);
     }
     
     public static void Exercicio11() {
